@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="com.change_vision.astah.ui.actionSets">
+      <actionSet
+         label="%action_set_label"
+         visible="true"
+         id="com.astah.plugin.tutorial.tutorial-plugin.actionSet">
+         <menu
+            label="%menu_group"
+            id="tutorial-plugin"
+            path="tool/tutorial-plugin">
+         </menu>
+         <action
+            label="%count_classes"
+            icon="icons/sample.gif"
+            class="com.astah.plugin.tutorial.CountClassAction"
+            tooltip="%menu_tooltip"
+            menubarPath="tool/tutorial-plugin/"
+            id="tutorial-plugin">
+         </action>
+      </actionSet>
+      <!--
+      <actionSet
+            label="%action_set_label"
+            visible="true"
+            id="com.astah.plugin.tutorial.tutorial-plugin.actionSet">
+         <menu
+               id="tutorial-plugin"
+               label="%menu_group"
+               path="tool/tutorial-plugin">
+         </menu>
+         <action
+			   label="%menu_label"
+               icon="icons/sample.gif"
+               class="com.astah.plugin.tutorial.TemplateAction"
+               tooltip="%menu_tooltip"
+               menubarPath="tool/tutorial-plugin/"
+               id="tutorial-plugin">
+         </action>
+     </actionSet>
+     -->
+   </extension>
+   <extension point="com.change_vision.astah.ui.view">
+      <view
+         id="com.astah.plugin.tutorial.HelloWorldView"
+         type="extraTab"
+         class="com.astah.plugin.tutorial.HelloWorldView"/>
+   </extension>
+</plugin>

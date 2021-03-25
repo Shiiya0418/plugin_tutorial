@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Astah-Edition: all
+Astah-Version: 6.7
+Bnd-LastModified: 1616659001846
+Build-Jdk: 1.8.0_282
+Built-By: shiiya
+Bundle-Activator: com.astah.plugin.tutorial.Activator
+Bundle-ClassPath: .,kotlin-stdlib-jdk8-1.4.32.jar,kotlin-stdlib-1.4.32.j
+ ar,kotlin-stdlib-common-1.4.32.jar,annotations-13.0.jar,kotlin-stdlib-j
+ dk7-1.4.32.jar
+Bundle-Description: %bundle.description
+Bundle-ManifestVersion: 2
+Bundle-Name: %bundle.name
+Bundle-SymbolicName: com.astah.plugin.tutorial.tutorial-plugin; singleto
+ n:=true
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: *;scope=compile|runtime;type=!pom
+Embed-Transitive: true
+Embedded-Artifacts: kotlin-stdlib-jdk8-1.4.32.jar;g="org.jetbrains.kotli
+ n";a="kotlin-stdlib-jdk8";v="1.4.32",kotlin-stdlib-1.4.32.jar;g="org.je
+ tbrains.kotlin";a="kotlin-stdlib";v="1.4.32",kotlin-stdlib-common-1.4.3
+ 2.jar;g="org.jetbrains.kotlin";a="kotlin-stdlib-common";v="1.4.32",anno
+ tations-13.0.jar;g="org.jetbrains";a="annotations";v="13.0",kotlin-stdl
+ ib-jdk7-1.4.32.jar;g="org.jetbrains.kotlin";a="kotlin-stdlib-jdk7";v="1
+ .4.32"
+Export-Package: com.astah.plugin.tutorial;version="1.0.0.SNAPSHOT";uses:
+ ="com.change_vision.jude.api.inf.project,com.change_vision.jude.api.inf
+ .ui,javax.swing,org.osgi.framework"
+Import-Package: com.change_vision.jude.api.inf;resolution:=optional,com.
+ change_vision.jude.api.inf.exception;resolution:=optional,com.change_vi
+ sion.jude.api.inf.model;resolution:=optional,com.change_vision.jude.api
+ .inf.project;resolution:=optional,com.change_vision.jude.api.inf.ui;res
+ olution:=optional,javax.swing;resolution:=optional,org.osgi.framework;r
+ esolution:=optional;version="[1.5,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849
