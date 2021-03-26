@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Astah-Edition: all
 Astah-Version: 6.7
-Bnd-LastModified: 1616659001846
+Bnd-LastModified: 1616725957717
 Build-Jdk: 1.8.0_282
 Built-By: shiiya
 Bundle-Activator: com.astah.plugin.tutorial.Activator
@@ -30,8 +30,10 @@ Export-Package: com.astah.plugin.tutorial;version="1.0.0.SNAPSHOT";uses:
 Import-Package: com.change_vision.jude.api.inf;resolution:=optional,com.
  change_vision.jude.api.inf.exception;resolution:=optional,com.change_vi
  sion.jude.api.inf.model;resolution:=optional,com.change_vision.jude.api
- .inf.project;resolution:=optional,com.change_vision.jude.api.inf.ui;res
- olution:=optional,javax.swing;resolution:=optional,org.osgi.framework;r
- esolution:=optional;version="[1.5,2)"
+ .inf.presentation;resolution:=optional,com.change_vision.jude.api.inf.p
+ roject;resolution:=optional,com.change_vision.jude.api.inf.ui;resolutio
+ n:=optional,com.change_vision.jude.api.inf.view;resolution:=optional,ja
+ vax.swing;resolution:=optional,org.osgi.framework;resolution:=optional;
+ version="[1.5,2)"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Tool: Bnd-3.5.0.201709291849
